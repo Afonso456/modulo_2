@@ -10,5 +10,10 @@ for i in range (2):
 for i in range(2):
     pos= random.randint(0, len(a_min))
     ppass= ppass + a_min[pos]
+for i in range (2):
+    pos= random.randint(0, len(a_s))
+    ppass= ppass + a_s[pos]
+for i in range(2):
+    pos= random.randint(0, len(a_n))
+    ppass= ppass + a_n[pos]
 print(ppass)
-#TODO continuar aqui
