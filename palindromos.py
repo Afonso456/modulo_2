@@ -1,9 +1,9 @@
-palavra= input("Insira uma palvra:")
-len(palavra)
+frase= input("Insira uma frase:")
+len(frase)
 frase_invertida= ""
-for i in range(len(palavra) -1,-1,-1):
-    frase_invertida = frase_invertida + palavra[i]
-if frase_invertida == palavra:
-    print(f"É palavra {palavra} é um palindromo")
+for i in range(len(frase) -1,-1,-1):
+    frase_invertida = frase_invertida + frase[i]
+if frase_invertida == frase:
+    print(f"É palavra {frase} é um palindromo")
 else:
-    print(f"A palavra {palavra} não é um palindromo")
+    print(f"A palavra {frase} não é um palindromo")
